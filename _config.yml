@@ -17,9 +17,9 @@ plugins:
   - jemoji
 
 ## personalize your slide show
-title:       github-slideshow
-author:      GitHubTeacher
-description: A fun activity for learning Git and GitHub.
+title:       Project Portfolio
+author:      Richard J.
+description: Portfolio of projects created by TechPowerAwaits.
 
 sass:
   style:     :compressed
