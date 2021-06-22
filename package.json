@@ -1,0 +1,9 @@
+{
+    "Name": "Project Porfolio",
+    "license": "MIT",
+    "author": "Richard Johnston",
+    "dependencies": {
+        "@slidev/cli": "0.19.8",
+        "@slidev/theme-default": "0.19.1"
+    }
+}
