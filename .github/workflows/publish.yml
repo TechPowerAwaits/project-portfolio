@@ -1,0 +1,30 @@
+# Builds slideshow and creates commit on gh-pages.
+
+name: Publisher
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+      
+      # Install dependencies
+      - name: Install deps
+        run: npm install
+        
+      # Runs a single command using the runners shell
+      - name: Build slideshow
+        run: npm run build
+      
+      - name: Publish slideshow
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: dist
