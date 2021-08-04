@@ -2,7 +2,7 @@
 
 Author: Richard Johnston
 
-Link: techpowerawaits.github.io/project-portfolio
+Link: https://techpowerawaits.github.io/project-portfolio
 
 License: MIT
 
