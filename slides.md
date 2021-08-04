@@ -1,7 +1,7 @@
 ---
 layout: cover
 ---
-# Welcome to my Portfolio Portfolio
+# Welcome to my Project Portfolio
 
 ---
 layout: section
